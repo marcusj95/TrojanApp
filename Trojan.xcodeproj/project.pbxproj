@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C64FD6D225C2FE1008CBDC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD6C225C2FE1008CBDC0 /* AppDelegate.swift */; };
+		2C64FD72225C2FE1008CBDC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C64FD70225C2FE1008CBDC0 /* Main.storyboard */; };
+		2C64FD74225C2FE2008CBDC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C64FD73225C2FE2008CBDC0 /* Assets.xcassets */; };
+		2C64FD77225C2FE2008CBDC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C64FD75225C2FE2008CBDC0 /* LaunchScreen.storyboard */; };
+		2C64FD7F225C382C008CBDC0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD7E225C382C008CBDC0 /* HomeViewController.swift */; };
+		2C64FD81225C384B008CBDC0 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD80225C384B008CBDC0 /* ScannerViewController.swift */; };
+		2C64FD83225C3880008CBDC0 /* RedisBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD82225C3880008CBDC0 /* RedisBuffer.swift */; };
+		2C64FD85225C388E008CBDC0 /* RedisCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD84225C388E008CBDC0 /* RedisCommand.swift */; };
+		2C64FD87225C389E008CBDC0 /* RedisConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD86225C389E008CBDC0 /* RedisConnection.swift */; };
+		2C64FD89225C38B1008CBDC0 /* RedisInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD88225C38B1008CBDC0 /* RedisInterface.swift */; };
+		2C64FD8B225C3947008CBDC0 /* RedisResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD8A225C3947008CBDC0 /* RedisResponse.swift */; };
+		2C64FD8D225C395E008CBDC0 /* RedisResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD8C225C395E008CBDC0 /* RedisResponseParser.swift */; };
+		2C64FD8F225C3971008CBDC0 /* RedisCommsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD8E225C3971008CBDC0 /* RedisCommsStore.swift */; };
+		2C64FD91225C3980008CBDC0 /* RedisCommsStoreDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD90225C3980008CBDC0 /* RedisCommsStoreDelegate.swift */; };
+		2C64FD97225D2BE6008CBDC0 /* PiSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD96225D2BE6008CBDC0 /* PiSelectorViewController.swift */; };
+		2C64FD99225D2BFA008CBDC0 /* PiSelectorViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD98225D2BFA008CBDC0 /* PiSelectorViewCell.swift */; };
+		2C64FD9B225D4FBE008CBDC0 /* RedisDataGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD9A225D4FBE008CBDC0 /* RedisDataGetter.swift */; };
+		2C64FD9D225EBDE9008CBDC0 /* ScanDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C64FD9C225EBDE9008CBDC0 /* ScanDataStore.swift */; };
+		91C5D9E64FFE39C16D8A3C87 /* Pods_Trojan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF34248970309EF9492D625 /* Pods_Trojan.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DF34248970309EF9492D625 /* Pods_Trojan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trojan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C64FD69225C2FE1008CBDC0 /* Trojan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trojan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C64FD6C225C2FE1008CBDC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C64FD71225C2FE1008CBDC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C64FD73225C2FE2008CBDC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C64FD76225C2FE2008CBDC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C64FD78225C2FE2008CBDC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C64FD7E225C382C008CBDC0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2C64FD80225C384B008CBDC0 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		2C64FD82225C3880008CBDC0 /* RedisBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisBuffer.swift; sourceTree = "<group>"; };
+		2C64FD84225C388E008CBDC0 /* RedisCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisCommand.swift; sourceTree = "<group>"; };
+		2C64FD86225C389E008CBDC0 /* RedisConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisConnection.swift; sourceTree = "<group>"; };
+		2C64FD88225C38B1008CBDC0 /* RedisInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisInterface.swift; sourceTree = "<group>"; };
+		2C64FD8A225C3947008CBDC0 /* RedisResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisResponse.swift; sourceTree = "<group>"; };
+		2C64FD8C225C395E008CBDC0 /* RedisResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisResponseParser.swift; sourceTree = "<group>"; };
+		2C64FD8E225C3971008CBDC0 /* RedisCommsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisCommsStore.swift; sourceTree = "<group>"; };
+		2C64FD90225C3980008CBDC0 /* RedisCommsStoreDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisCommsStoreDelegate.swift; sourceTree = "<group>"; };
+		2C64FD96225D2BE6008CBDC0 /* PiSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiSelectorViewController.swift; sourceTree = "<group>"; };
+		2C64FD98225D2BFA008CBDC0 /* PiSelectorViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiSelectorViewCell.swift; sourceTree = "<group>"; };
+		2C64FD9A225D4FBE008CBDC0 /* RedisDataGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedisDataGetter.swift; sourceTree = "<group>"; };
+		2C64FD9C225EBDE9008CBDC0 /* ScanDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDataStore.swift; sourceTree = "<group>"; };
+		B60B6E6EF5A9D3B9F29BC0DA /* Pods-Trojan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trojan.release.xcconfig"; path = "Target Support Files/Pods-Trojan/Pods-Trojan.release.xcconfig"; sourceTree = "<group>"; };
+		CD59C9FFA4C7EE2DC88EDE13 /* Pods-Trojan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trojan.debug.xcconfig"; path = "Target Support Files/Pods-Trojan/Pods-Trojan.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C64FD66225C2FE1008CBDC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91C5D9E64FFE39C16D8A3C87 /* Pods_Trojan.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A47A399714B1ED096F5265 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD59C9FFA4C7EE2DC88EDE13 /* Pods-Trojan.debug.xcconfig */,
+				B60B6E6EF5A9D3B9F29BC0DA /* Pods-Trojan.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2C64FD60225C2FE1008CBDC0 = {
+			isa = PBXGroup;
+			children = (
+				2C64FD6B225C2FE1008CBDC0 /* Trojan */,
+				2C64FD6A225C2FE1008CBDC0 /* Products */,
+				13A47A399714B1ED096F5265 /* Pods */,
+				8235017824B6E7E35857988A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C64FD6A225C2FE1008CBDC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C64FD69225C2FE1008CBDC0 /* Trojan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C64FD6B225C2FE1008CBDC0 /* Trojan */ = {
+			isa = PBXGroup;
+			children = (
+				2C64FD82225C3880008CBDC0 /* RedisBuffer.swift */,
+				2C64FD84225C388E008CBDC0 /* RedisCommand.swift */,
+				2C64FD86225C389E008CBDC0 /* RedisConnection.swift */,
+				2C64FD88225C38B1008CBDC0 /* RedisInterface.swift */,
+				2C64FD8A225C3947008CBDC0 /* RedisResponse.swift */,
+				2C64FD8C225C395E008CBDC0 /* RedisResponseParser.swift */,
+				2C64FD90225C3980008CBDC0 /* RedisCommsStoreDelegate.swift */,
+				2C64FD8E225C3971008CBDC0 /* RedisCommsStore.swift */,
+				2C64FD9A225D4FBE008CBDC0 /* RedisDataGetter.swift */,
+				2C64FD98225D2BFA008CBDC0 /* PiSelectorViewCell.swift */,
+				2C64FD9C225EBDE9008CBDC0 /* ScanDataStore.swift */,
+				2C64FD96225D2BE6008CBDC0 /* PiSelectorViewController.swift */,
+				2C64FD7E225C382C008CBDC0 /* HomeViewController.swift */,
+				2C64FD80225C384B008CBDC0 /* ScannerViewController.swift */,
+				2C64FD6C225C2FE1008CBDC0 /* AppDelegate.swift */,
+				2C64FD70225C2FE1008CBDC0 /* Main.storyboard */,
+				2C64FD73225C2FE2008CBDC0 /* Assets.xcassets */,
+				2C64FD75225C2FE2008CBDC0 /* LaunchScreen.storyboard */,
+				2C64FD78225C2FE2008CBDC0 /* Info.plist */,
+			);
+			path = Trojan;
+			sourceTree = "<group>";
+		};
+		8235017824B6E7E35857988A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF34248970309EF9492D625 /* Pods_Trojan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C64FD68225C2FE1008CBDC0 /* Trojan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C64FD7B225C2FE2008CBDC0 /* Build configuration list for PBXNativeTarget "Trojan" */;
+			buildPhases = (
+				2FA60F79A05892FCB5A923AF /* [CP] Check Pods Manifest.lock */,
+				2C64FD65225C2FE1008CBDC0 /* Sources */,
+				2C64FD66225C2FE1008CBDC0 /* Frameworks */,
+				2C64FD67225C2FE1008CBDC0 /* Resources */,
+				DCF20EDE53407D5362452A0E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trojan;
+			productName = Trojan;
+			productReference = 2C64FD69225C2FE1008CBDC0 /* Trojan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C64FD61225C2FE1008CBDC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Marcus Jackson";
+				TargetAttributes = {
+					2C64FD68225C2FE1008CBDC0 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 2C64FD64225C2FE1008CBDC0 /* Build configuration list for PBXProject "Trojan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C64FD60225C2FE1008CBDC0;
+			productRefGroup = 2C64FD6A225C2FE1008CBDC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C64FD68225C2FE1008CBDC0 /* Trojan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C64FD67225C2FE1008CBDC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64FD77225C2FE2008CBDC0 /* LaunchScreen.storyboard in Resources */,
+				2C64FD74225C2FE2008CBDC0 /* Assets.xcassets in Resources */,
+				2C64FD72225C2FE1008CBDC0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FA60F79A05892FCB5A923AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trojan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCF20EDE53407D5362452A0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trojan/Pods-Trojan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trojan/Pods-Trojan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C64FD65225C2FE1008CBDC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C64FD99225D2BFA008CBDC0 /* PiSelectorViewCell.swift in Sources */,
+				2C64FD6D225C2FE1008CBDC0 /* AppDelegate.swift in Sources */,
+				2C64FD7F225C382C008CBDC0 /* HomeViewController.swift in Sources */,
+				2C64FD9D225EBDE9008CBDC0 /* ScanDataStore.swift in Sources */,
+				2C64FD97225D2BE6008CBDC0 /* PiSelectorViewController.swift in Sources */,
+				2C64FD87225C389E008CBDC0 /* RedisConnection.swift in Sources */,
+				2C64FD81225C384B008CBDC0 /* ScannerViewController.swift in Sources */,
+				2C64FD8F225C3971008CBDC0 /* RedisCommsStore.swift in Sources */,
+				2C64FD91225C3980008CBDC0 /* RedisCommsStoreDelegate.swift in Sources */,
+				2C64FD83225C3880008CBDC0 /* RedisBuffer.swift in Sources */,
+				2C64FD8B225C3947008CBDC0 /* RedisResponse.swift in Sources */,
+				2C64FD9B225D4FBE008CBDC0 /* RedisDataGetter.swift in Sources */,
+				2C64FD8D225C395E008CBDC0 /* RedisResponseParser.swift in Sources */,
+				2C64FD85225C388E008CBDC0 /* RedisCommand.swift in Sources */,
+				2C64FD89225C38B1008CBDC0 /* RedisInterface.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C64FD70225C2FE1008CBDC0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C64FD71225C2FE1008CBDC0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C64FD75225C2FE2008CBDC0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C64FD76225C2FE2008CBDC0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C64FD79225C2FE2008CBDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C64FD7A225C2FE2008CBDC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C64FD7C225C2FE2008CBDC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD59C9FFA4C7EE2DC88EDE13 /* Pods-Trojan.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Trojan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarcusJackson.Trojan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C64FD7D225C2FE2008CBDC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60B6E6EF5A9D3B9F29BC0DA /* Pods-Trojan.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Trojan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MarcusJackson.Trojan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C64FD64225C2FE1008CBDC0 /* Build configuration list for PBXProject "Trojan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C64FD79225C2FE2008CBDC0 /* Debug */,
+				2C64FD7A225C2FE2008CBDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C64FD7B225C2FE2008CBDC0 /* Build configuration list for PBXNativeTarget "Trojan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C64FD7C225C2FE2008CBDC0 /* Debug */,
+				2C64FD7D225C2FE2008CBDC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C64FD61225C2FE1008CBDC0 /* Project object */;
+}
